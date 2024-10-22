@@ -2,17 +2,17 @@
 For this project, we create a Library Management System using Object-orientated programming in Python.
 
 
-##Overview
+## Overview
 
 This project is a simple Python-based Library Management System. Users can view available books, borrow them, and return them. The system updates the inventory in real-time, ensuring only available books can be borrowed.
 
-##Features
+## Features
 
   1. View Available Books
   2. Borrow Books
   3. Return Books
 
-##How to Run
+## How to Run
   1. Clone the repository
      ```git clone https://github.com/yourusername/LibraryManagementSystem.git```
      ```cd LibraryManagementSystem```
@@ -21,12 +21,14 @@ This project is a simple Python-based Library Management System. Users can view 
      ```python LibrarySystem-finalgit.py```
 
 
-##Classes
+## Classes
+
   -Library: Manages book inventory (display, borrow, return).
+  
   -Student: To be implemented for user interaction.
 
 
-##License
+## License
 
 Licensed under the MIT License.
 

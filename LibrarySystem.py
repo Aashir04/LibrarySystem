@@ -4,14 +4,17 @@
 
 
 class Library:
+    # stores books available to borrow
     def __init__(self, booklist):
         self.availableBooks = booklist
 
+    # shows the available books to user
     def displayBooks(self):
         print("\nThe books we have in stock are:")
         for book in self.availableBooks:
             print(book)
 
+    # method for lending out books
     def lendBooks(self, reqBook):
         if reqBook in self.availableBooks:
             print(f"\nYou have successfully borrowed '{reqBook}'")
@@ -20,16 +23,19 @@ class Library:
         else:
             print("\nSorry, we do not have this book at the moment.")
 
+    # method for returning books
     def returnBook(self, returnBook):
         self.availableBooks.append(returnBook)
         print(f"\nThank you for returning '{returnBook}'!")
 
 
 class Student:
+    # method for students asking to borrow books
     def requestBook(self):
         reqBook = input("Enter the name of the book you would like to borrow: ")
         return reqBook
 
+    # method for students returning books
     def returnBook(self):
         returnBook = input("Enter the name of the book you are returning: ")
         return returnBook
@@ -63,9 +69,11 @@ list_of_books = [
 ]
 
 def main():
+    # objects of our defined classes
     library = Library(list_of_books)
     student = Student()
 
+    # menu shown to user 
     while True:
         print("\n=== LIBRARY MENU ===")
         print("1. Display available books")

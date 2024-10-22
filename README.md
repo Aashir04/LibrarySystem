@@ -14,10 +14,13 @@ This project is a simple Python-based Library Management System. Users can view 
 
 ## How to Run
   1. Clone the repository
+     
      ```git clone https://github.com/yourusername/LibraryManagementSystem.git```
+     
      ```cd LibraryManagementSystem```
 
   3. Run the script
+     
      ```python LibrarySystem-finalgit.py```
 
 

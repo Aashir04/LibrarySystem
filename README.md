@@ -1,5 +1,5 @@
 # Library Management System
-For this project, we create a Library Management System using Object-orientated programming in Python.
+For this project, we created a Library Management System using Object-orientated programming in Python.
 
 
 ## Overview

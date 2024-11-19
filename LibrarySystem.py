@@ -4,7 +4,7 @@
 
 
 class Library:
-    # stores books available to borrow
+    # stores books that are available to borrow
     def __init__(self, booklist):
         self.availableBooks = booklist
 
